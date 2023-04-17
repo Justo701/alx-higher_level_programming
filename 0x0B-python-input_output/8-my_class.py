@@ -10,6 +10,6 @@ class MyClass:
         self.name = name
         self.number = 0
 
-def __str__(self):
+    def __str__(self):
         return "[MyClass] {} - {:d}".format(self.name, self.number)
 
